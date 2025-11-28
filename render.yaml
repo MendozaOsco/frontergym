@@ -3,7 +3,7 @@ services:
     name: gym-frontend
     env: static
     buildCommand: npm install && npm run build -- --configuration production
-    staticPublishPath: dist/gym-frontend/browser
+    staticPublishPath: dist/gym-frontend
     routes:
       - type: rewrite
         source: /**
